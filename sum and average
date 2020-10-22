@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    int numberofSix = 32;
+    int numberofFour = 45;
+    int average;
+
+    int totalRuns = numberofSix + numberofFour;
+    average = totalRuns / 2;
+
+    cout << "Total number of Runs : " << totalRuns << endl ;
+    cout << "Average runs scored : " << average;
+
+    return 0;
+}
