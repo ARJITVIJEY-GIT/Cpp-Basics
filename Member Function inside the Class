@@ -6,9 +6,12 @@ class stu
 {
 private:
     int id;
-    char name[20];
+    char name[20];             //Member function outside the class
     float fee;
-public:
+public:                        /* public:
+                                   void get()
+                                };
+                                void stu::get() */
     void get()
     {
         cout<<" Enter id,name,fee : ";
